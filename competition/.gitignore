@@ -1,0 +1,5 @@
+data/
+runs/*/fold*.txt
+runs/*/submission.csv
+runs/*/predictions.npz
+__pycache__/

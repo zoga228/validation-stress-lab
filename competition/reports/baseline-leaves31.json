@@ -1,0 +1,33 @@
+{
+  "config": {
+    "name": "baseline-leaves31",
+    "leaves": 31,
+    "features": false,
+    "regularization": 1
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "auc": 0.9579009369999779,
+      "best_iteration": 1032
+    },
+    {
+      "fold": 1,
+      "auc": 0.9591299867891989,
+      "best_iteration": 1543
+    },
+    {
+      "fold": 2,
+      "auc": 0.9589638807268699,
+      "best_iteration": 1323
+    }
+  ],
+  "oof_auc": 0.958662442613581,
+  "oof_log_loss": 0.2276241980500267,
+  "seconds": 178.88826620001055,
+  "train_rows": 699635,
+  "test_rows": 299844,
+  "excluded_id": true,
+  "lightgbm_version": "4.6.0",
+  "split_seed": 42
+}
