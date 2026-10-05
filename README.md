@@ -40,6 +40,10 @@ Scripts save tables and figures to `outputs/`. On a headless machine set `MPLBAC
 | Does calibration actually help? | [Calibration and paired bootstrap](notebooks/calibration-ranking-is-not-probability-quality.ipynb) |
 | When do intervals lose coverage? | [Split conformal](notebooks/conformal-coverage-iid-versus-covariate-shift.ipynb) |
 
+## Application on competition data
+
+[Airline Satisfaction](competition/README.md) applies fixed-fold CV to 699,635 training rows. The submitted baseline scored **0.95821 public ROC AUC**; cross-fitted target encoding improved it to **0.95970** (OOF AUC **0.960140**). The service-summary variant did not improve CV and was not submitted. Raw competition data and predictions are excluded from Git. [Run the Kaggle study](https://www.kaggle.com/code/zangar09417/s6e10-fixed-fold-cv-and-feature-ablations).
+
 The companion [Causal LM Lab](https://github.com/zoga228/causal-lm-lab) studies decoder architecture and separate held-out evaluation.
 
 ## Data and limitations

@@ -1,0 +1,34 @@
+{
+  "config": {
+    "name": "crossfit-target-encoding",
+    "leaves": 63,
+    "features": false,
+    "regularization": 5,
+    "target_encoding": true
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "auc": 0.9594559675425087,
+      "best_iteration": 468
+    },
+    {
+      "fold": 1,
+      "auc": 0.9606989897220948,
+      "best_iteration": 716
+    },
+    {
+      "fold": 2,
+      "auc": 0.9602687133659383,
+      "best_iteration": 535
+    }
+  ],
+  "oof_auc": 0.9601396682113224,
+  "oof_log_loss": 0.22549395030604671,
+  "seconds": 153.12974509999913,
+  "train_rows": 699635,
+  "test_rows": 299844,
+  "excluded_id": true,
+  "lightgbm_version": "4.6.0",
+  "split_seed": 42
+}
