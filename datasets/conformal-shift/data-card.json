@@ -1,0 +1,37 @@
+{
+  "synthetic": true,
+  "license": "CC0-1.0",
+  "generator": "make_data.py",
+  "version": "1.0",
+  "files": {
+    "train.csv": {
+      "rows": 4000,
+      "columns": [
+        "x",
+        "target"
+      ]
+    },
+    "calibration.csv": {
+      "rows": 2000,
+      "columns": [
+        "x",
+        "target"
+      ]
+    },
+    "iid-test.csv": {
+      "rows": 3000,
+      "columns": [
+        "x",
+        "target"
+      ]
+    },
+    "shift-test.csv": {
+      "rows": 3000,
+      "columns": [
+        "x",
+        "target"
+      ]
+    }
+  },
+  "purpose": "Controlled experiments about validation assumptions; not evidence about a real population"
+}

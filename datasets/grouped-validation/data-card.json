@@ -1,0 +1,17 @@
+{
+  "synthetic": true,
+  "license": "CC0-1.0",
+  "generator": "make_data.py",
+  "version": "1.0",
+  "files": {
+    "all.csv": {
+      "rows": 12000,
+      "columns": [
+        "group_id",
+        "sensor_noise",
+        "target"
+      ]
+    }
+  },
+  "purpose": "Controlled experiments about validation assumptions; not evidence about a real population"
+}

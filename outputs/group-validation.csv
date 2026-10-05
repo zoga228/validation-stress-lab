@@ -1,0 +1,11 @@
+seed,protocol,auc,overlapping_groups
+11,same groups: random split,0.9292597656111108,400
+11,new groups: group split,0.4930372518694395,0
+22,same groups: random split,0.9255270967532608,400
+22,new groups: group split,0.5081909419283134,0
+33,same groups: random split,0.9228216405718055,400
+33,new groups: group split,0.515061746640024,0
+44,same groups: random split,0.9173011543899099,400
+44,new groups: group split,0.5083181512656528,0
+55,same groups: random split,0.9151051880905688,399
+55,new groups: group split,0.5052395928148823,0

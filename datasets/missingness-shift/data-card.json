@@ -1,0 +1,48 @@
+{
+  "synthetic": true,
+  "license": "CC0-1.0",
+  "generator": "make_data.py",
+  "version": "1.0",
+  "files": {
+    "train.csv": {
+      "rows": 6000,
+      "columns": [
+        "x0",
+        "x1",
+        "x2",
+        "x3",
+        "x4",
+        "x5",
+        "spurious",
+        "target"
+      ]
+    },
+    "iid-test.csv": {
+      "rows": 3000,
+      "columns": [
+        "x0",
+        "x1",
+        "x2",
+        "x3",
+        "x4",
+        "x5",
+        "spurious",
+        "target"
+      ]
+    },
+    "shift-test.csv": {
+      "rows": 3000,
+      "columns": [
+        "x0",
+        "x1",
+        "x2",
+        "x3",
+        "x4",
+        "x5",
+        "spurious",
+        "target"
+      ]
+    }
+  },
+  "purpose": "Controlled experiments about validation assumptions; not evidence about a real population"
+}
