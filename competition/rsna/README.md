@@ -30,6 +30,8 @@ cd competition/rsna
 python -m pip install -r requirements.txt
 python -c "import torch; from torchvision.models import ResNet18_Weights; torch.save(ResNet18_Weights.IMAGENET1K_V1.get_state_dict(progress=True, check_hash=True), 'resnet18-imagenet.pth')"
 python run_images.py --data /path/to/competition --weights resnet18-imagenet.pth --output outputs
+python run_metadata.py --data /path/to/competition --regularization .01 --output outputs/protocol-c001
+python run_metadata.py --data /path/to/competition --regularization .1 --output outputs/protocol-c01
 ```
 
 Prepare weights and decoder packages before running an offline competition notebook. The script saves both prespecified prediction variants and their metrics; copy the chosen output to submission.csv for a code submission. The Kaggle input notebook ran on GPU. Exact results may vary with package versions and hardware. [Aggregate measured results](validation-results.json) include target prevalence and decoder diagnostics. [Acquisition baseline source](metadata_baseline.py) records the prior comparator.
