@@ -1,0 +1,381 @@
+{
+  "recorded_date": "2026-10-07",
+  "labeled_studies": 58,
+  "protocol": "Per-target stratified three-fold OOF, seed42; fold-only scaling; public pretrained frozen weights.",
+  "previous_metadata_c01": {
+    "variant": "logistic",
+    "macro_oof_auc": 0.5683988321063552,
+    "targets": {
+      "ACL": {
+        "n_labeled": 58,
+        "positive": 24,
+        "oof_auc": 0.6084558823529412,
+        "folds": 3
+      },
+      "MCL": {
+        "n_labeled": 58,
+        "positive": 9,
+        "oof_auc": 0.4761904761904761,
+        "folds": 3
+      },
+      "Medial Meniscus": {
+        "n_labeled": 58,
+        "positive": 26,
+        "oof_auc": 0.4855769230769231,
+        "folds": 3
+      },
+      "Lateral Meniscus": {
+        "n_labeled": 58,
+        "positive": 23,
+        "oof_auc": 0.49440993788819876,
+        "folds": 3
+      },
+      "Medial OA": {
+        "n_labeled": 58,
+        "positive": 15,
+        "oof_auc": 0.541860465116279,
+        "folds": 3
+      },
+      "Lateral OA": {
+        "n_labeled": 58,
+        "positive": 11,
+        "oof_auc": 0.723404255319149,
+        "folds": 3
+      },
+      "PF OA": {
+        "n_labeled": 58,
+        "positive": 21,
+        "oof_auc": 0.6293436293436292,
+        "folds": 3
+      },
+      "Effusion": {
+        "n_labeled": 58,
+        "positive": 35,
+        "oof_auc": 0.6024844720496895,
+        "folds": 3
+      },
+      "Synovitis": {
+        "n_labeled": 58,
+        "positive": 27,
+        "oof_auc": 0.6457586618876942,
+        "folds": 3
+      },
+      "Baker's": {
+        "n_labeled": 58,
+        "positive": 12,
+        "oof_auc": 0.4999999999999999,
+        "folds": 3
+      },
+      "Contusion": {
+        "n_labeled": 58,
+        "positive": 19,
+        "oof_auc": 0.44871794871794873,
+        "folds": 3
+      },
+      "Fracture": {
+        "n_labeled": 58,
+        "positive": 18,
+        "oof_auc": 0.6645833333333334,
+        "folds": 3
+      }
+    },
+    "features": [
+      "series_count",
+      "Fluid_Sensitive_sum",
+      "Fluid_Sensitive_fraction",
+      "Fat_Suppression_sum",
+      "Fat_Suppression_fraction",
+      "Sagittal_count",
+      "Sagittal_Fluid_Sensitive",
+      "Sagittal_Fat_Suppression",
+      "Coronal_count",
+      "Coronal_Fluid_Sensitive",
+      "Coronal_Fat_Suppression",
+      "Axial_count",
+      "Axial_Fluid_Sensitive",
+      "Axial_Fat_Suppression",
+      "both_count"
+    ],
+    "limitation": "Only 58 labeled studies. Acquisition descriptors can reflect site/protocol confounding. No report features, image interpretation, clinical validation, or site-disjoint generalization claim. Per-target stratified folds use seed 42; fixed hyperparameters, no leaderboard tuning."
+  },
+  "matched_metadata_c001": {
+    "variant": "logistic",
+    "macro_oof_auc": 0.5491077716400204,
+    "targets": {
+      "ACL": {
+        "n_labeled": 58,
+        "positive": 24,
+        "oof_auc": 0.5373774509803922,
+        "folds": 3
+      },
+      "MCL": {
+        "n_labeled": 58,
+        "positive": 9,
+        "oof_auc": 0.473922902494331,
+        "folds": 3
+      },
+      "Medial Meniscus": {
+        "n_labeled": 58,
+        "positive": 26,
+        "oof_auc": 0.4302884615384615,
+        "folds": 3
+      },
+      "Lateral Meniscus": {
+        "n_labeled": 58,
+        "positive": 23,
+        "oof_auc": 0.46521739130434775,
+        "folds": 3
+      },
+      "Medial OA": {
+        "n_labeled": 58,
+        "positive": 15,
+        "oof_auc": 0.5031007751937985,
+        "folds": 3
+      },
+      "Lateral OA": {
+        "n_labeled": 58,
+        "positive": 11,
+        "oof_auc": 0.7195357833655706,
+        "folds": 3
+      },
+      "PF OA": {
+        "n_labeled": 58,
+        "positive": 21,
+        "oof_auc": 0.6332046332046333,
+        "folds": 3
+      },
+      "Effusion": {
+        "n_labeled": 58,
+        "positive": 35,
+        "oof_auc": 0.577639751552795,
+        "folds": 3
+      },
+      "Synovitis": {
+        "n_labeled": 58,
+        "positive": 27,
+        "oof_auc": 0.6194743130227001,
+        "folds": 3
+      },
+      "Baker's": {
+        "n_labeled": 58,
+        "positive": 12,
+        "oof_auc": 0.5253623188405797,
+        "folds": 3
+      },
+      "Contusion": {
+        "n_labeled": 58,
+        "positive": 19,
+        "oof_auc": 0.4284750337381916,
+        "folds": 3
+      },
+      "Fracture": {
+        "n_labeled": 58,
+        "positive": 18,
+        "oof_auc": 0.6756944444444445,
+        "folds": 3
+      }
+    },
+    "features": [
+      "series_count",
+      "Fluid_Sensitive_sum",
+      "Fluid_Sensitive_fraction",
+      "Fat_Suppression_sum",
+      "Fat_Suppression_fraction",
+      "Sagittal_count",
+      "Sagittal_Fluid_Sensitive",
+      "Sagittal_Fat_Suppression",
+      "Coronal_count",
+      "Coronal_Fluid_Sensitive",
+      "Coronal_Fat_Suppression",
+      "Axial_count",
+      "Axial_Fluid_Sensitive",
+      "Axial_Fat_Suppression",
+      "both_count"
+    ],
+    "limitation": "Only 58 labeled studies. Acquisition descriptors can reflect site/protocol confounding. No report features, image interpretation, clinical validation, or site-disjoint generalization claim. Per-target stratified folds use seed 42; fixed hyperparameters, no leaderboard tuning."
+  },
+  "image_study": {
+    "backbone": "Official torchvision ResNet18 ImageNet-1K; frozen, not trained by this account",
+    "device": "cuda",
+    "selection": "Two prespecified feature sets; C=.01 and per-target stratified 3-fold seed42 fixed before predictions. No leaderboard tuning.",
+    "limitation": "58 labeled studies; large feature dimension, possible site/protocol confounding, no site-disjoint or clinical validation. ImageNet transfer is not a specialist MRI model.",
+    "train_diagnostics": {
+      "studies": 58,
+      "decoded_slices": 348,
+      "failed_slices": 0,
+      "missing_series": 0,
+      "studies_without_images": 0,
+      "examples": [],
+      "seconds": 58.270202070000096
+    },
+    "test_diagnostics": {
+      "studies": 3,
+      "decoded_slices": 18,
+      "failed_slices": 0,
+      "missing_series": 0,
+      "studies_without_images": 0,
+      "examples": [],
+      "seconds": 4.22959383500006
+    },
+    "variants": {
+      "image": {
+        "variant": "image",
+        "macro_oof_auc": 0.6872704598036262,
+        "targets": {
+          "ACL": {
+            "n_labeled": 58,
+            "positive": 24,
+            "oof_auc": 0.6580882352941176,
+            "folds": 3
+          },
+          "MCL": {
+            "n_labeled": 58,
+            "positive": 9,
+            "oof_auc": 0.746031746031746,
+            "folds": 3
+          },
+          "Medial Meniscus": {
+            "n_labeled": 58,
+            "positive": 26,
+            "oof_auc": 0.6646634615384615,
+            "folds": 3
+          },
+          "Lateral Meniscus": {
+            "n_labeled": 58,
+            "positive": 23,
+            "oof_auc": 0.7552795031055901,
+            "folds": 3
+          },
+          "Medial OA": {
+            "n_labeled": 58,
+            "positive": 15,
+            "oof_auc": 0.7984496124031009,
+            "folds": 3
+          },
+          "Lateral OA": {
+            "n_labeled": 58,
+            "positive": 11,
+            "oof_auc": 0.6634429400386848,
+            "folds": 3
+          },
+          "PF OA": {
+            "n_labeled": 58,
+            "positive": 21,
+            "oof_auc": 0.5881595881595881,
+            "folds": 3
+          },
+          "Effusion": {
+            "n_labeled": 58,
+            "positive": 35,
+            "oof_auc": 0.7888198757763976,
+            "folds": 3
+          },
+          "Synovitis": {
+            "n_labeled": 58,
+            "positive": 27,
+            "oof_auc": 0.6045400238948625,
+            "folds": 3
+          },
+          "Baker's": {
+            "n_labeled": 58,
+            "positive": 12,
+            "oof_auc": 0.5561594202898551,
+            "folds": 3
+          },
+          "Contusion": {
+            "n_labeled": 58,
+            "positive": 19,
+            "oof_auc": 0.6666666666666666,
+            "folds": 3
+          },
+          "Fracture": {
+            "n_labeled": 58,
+            "positive": 18,
+            "oof_auc": 0.7569444444444444,
+            "folds": 3
+          }
+        },
+        "feature_dimension": 1542
+      },
+      "image-protocol": {
+        "variant": "image-protocol",
+        "macro_oof_auc": 0.6876592657558809,
+        "targets": {
+          "ACL": {
+            "n_labeled": 58,
+            "positive": 24,
+            "oof_auc": 0.6519607843137255,
+            "folds": 3
+          },
+          "MCL": {
+            "n_labeled": 58,
+            "positive": 9,
+            "oof_auc": 0.7437641723356009,
+            "folds": 3
+          },
+          "Medial Meniscus": {
+            "n_labeled": 58,
+            "positive": 26,
+            "oof_auc": 0.6622596153846153,
+            "folds": 3
+          },
+          "Lateral Meniscus": {
+            "n_labeled": 58,
+            "positive": 23,
+            "oof_auc": 0.7590062111801242,
+            "folds": 3
+          },
+          "Medial OA": {
+            "n_labeled": 58,
+            "positive": 15,
+            "oof_auc": 0.8046511627906976,
+            "folds": 3
+          },
+          "Lateral OA": {
+            "n_labeled": 58,
+            "positive": 11,
+            "oof_auc": 0.6634429400386846,
+            "folds": 3
+          },
+          "PF OA": {
+            "n_labeled": 58,
+            "positive": 21,
+            "oof_auc": 0.595881595881596,
+            "folds": 3
+          },
+          "Effusion": {
+            "n_labeled": 58,
+            "positive": 35,
+            "oof_auc": 0.7850931677018634,
+            "folds": 3
+          },
+          "Synovitis": {
+            "n_labeled": 58,
+            "positive": 27,
+            "oof_auc": 0.6033452807646356,
+            "folds": 3
+          },
+          "Baker's": {
+            "n_labeled": 58,
+            "positive": 12,
+            "oof_auc": 0.5615942028985508,
+            "folds": 3
+          },
+          "Contusion": {
+            "n_labeled": 58,
+            "positive": 19,
+            "oof_auc": 0.6639676113360324,
+            "folds": 3
+          },
+          "Fracture": {
+            "n_labeled": 58,
+            "positive": 18,
+            "oof_auc": 0.7569444444444444,
+            "folds": 3
+          }
+        },
+        "feature_dimension": 1557
+      }
+    }
+  }
+}

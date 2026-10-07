@@ -46,6 +46,8 @@ Scripts save tables and figures to `outputs/`. On a headless machine set `MPLBAC
 
 The companion [Causal LM Lab](https://github.com/zoga228/causal-lm-lab) studies decoder architecture and separate held-out evaluation.
 
+[Study-level MRI transfer](competition/rsna/README.md) extends the work to 58 labeled studies from a real benchmark. With matched C=.01 regularization, acquisition descriptors scored **0.549108** OOF AUC and frozen MRI features **0.687270**. The code, target-level results and decoder diagnostics are available; scanner shortcuts and small-sample uncertainty limit the interpretation. The public ResNet18 backbone was pretrained by torchvision, and our implementation supplies pooling, supervised classification and validation.
+
 ## Data and limitations
 
 `make_data.py` is the source of truth. The three benchmark packs are grouped identity classification, classification with missingness and a reversible shortcut, and heteroscedastic regression under covariate shift. `data-card.json` documents rows and columns. Synthetic data is released under CC0-1.0; source code is MIT. Test populations are never used to fit or tune a model. The calibrated-model bootstrap conditions on the fitted models; it does not quantify training-set variability.

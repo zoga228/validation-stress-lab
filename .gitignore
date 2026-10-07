@@ -2,3 +2,7 @@ __pycache__/
 .venv/
 datasets/*/*.csv
 .ipynb_checkpoints/
+competition/rsna/data/
+competition/rsna/outputs/
+competition/rsna/*.pth
+competition/rsna/*.npz

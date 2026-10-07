@@ -1,0 +1,10 @@
+numpy
+pandas
+scikit-learn
+torch
+torchvision
+Pillow
+pydicom>=3
+pylibjpeg
+pylibjpeg-libjpeg
+pylibjpeg-openjpeg
